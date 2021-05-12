@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    color: #E20000;
+}
+
+nav .nav-link {
+    color: #282828;
+}
+
+nav .active{
+    border: 1px solid #E20000;
+    border-radius: 20px;
+    ;
+}
+
+.pr-5, .px-5 {
+    padding-right: 3rem!important;
+}
+
+input, textarea, .btn{
+    border-radius: 15px !important;
+}
+
+
+p {
+    color: #6a6a6a
+}
+
+#contacto {
+    background-image: url(../Imagenes/fondo-contacto.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 700px) {
+    #contacto {
+        background-image: url(../Imagenes/Artboard\ 1\ copia\ 3\ copy\ 9.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+}
+
+.btne {
+    background-color: white;
+    color: #370a6d;
+    padding: 4px;
+    margin-left: 520px;
+    border-radius: 20px;
+}
+
+.btne:hover{
+    background-color: #370a6d;
+    color: white;  
+}
+
+.btn{
+    background-color: #E20000 !important;
+    color: white;
+    padding: 4px;
+    margin-left: 590px;
+    border-radius: 20px;
+}
+
+.whatsapp{
+    background-color: #370a6d;
+    color: white;
+    width: 60px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    font-size: 32px;
+    height: 200px;
+    text-align: center;
+    padding: 100px 0 40px 0;
+    position: fixed;
+}
+
+.whatsapp a{
+    color: white;
+}
+
