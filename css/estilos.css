@@ -24,10 +24,15 @@ nav .active{
     padding-right: 3rem!important;
 }
 
-input, textarea, .btn{
+input, .btn{
     border-radius: 15px !important;
 }
 
+textarea{
+    height: 150px !important;
+    resize: none;
+    border-radius: 15px !important;
+}
 
 p {
     color: #6a6a6a
@@ -105,7 +110,7 @@ p {
     border-radius: 20px;
 }
 
-.whatsapp{
+.col-sm-3 col-12 text-right{
     background-color: #370a6d;
     color: white;
     width: 60px;
@@ -118,6 +123,10 @@ p {
     position: fixed;
 }
 
+.text-right {
+    text-align: right!important;
+}
+
 .whatsapp a{
     color: white;
 }
@@ -125,6 +134,9 @@ p {
 .row {
     display: flex;
 }
+
+
+
 
 .form-inline { 
     padding-left: 580px;
@@ -136,6 +148,28 @@ p {
 }
 
 a {
-    color: red;
+    color:red;
     text-decoration:solid
+}
+
+footer .fa-whatsapp {
+color: white;
+background-color: #370A6D;
+font-size: 30px;
+padding: 10px 19px;
+border-radius: 10px 10px 0 0;
+height: 103px;
+width: 65px;
+}
+
+footer .fa-github, .fa-linkedin-in{
+    font-size: 30px;
+}
+
+#proyectos footer .fa-github{
+    color: red;
+    padding; left: 0px;
+}
+#proyectos footer .fa-linkedin-in{
+    color: red;
 }
