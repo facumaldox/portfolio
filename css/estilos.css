@@ -8,6 +8,8 @@ h1 {
     color: #E20000;
 }
 
+
+
 nav .nav-link {
     color: #282828;
 }
@@ -36,6 +38,44 @@ p {
     background-size: 100%;
     background-repeat: no-repeat;
 }
+#proyectos {
+    background-image: url(../Imagenes/Artboard\ 1\ copia\ 3\ copy\ 9.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#proyectos img {
+    height: 203px;
+}
+
+#proyectos h2 {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    padding-left: 15px;
+
+}
+
+#proyectos p{
+
+    padding: 25px
+}
+#proyectos .card p{
+    height: 90px;
+
+}
+
+
+.p-3 {
+    padding: 1rem!important;
+}
+
+#proyectos h2{
+    background: rgb(163,0,0);
+    background: linear-gradient(90deg, rgba(163,0,0,1) 27%, rgba(242,12,12,1) 58%);
+}
 
 @media (max-width: 700px) {
     #contacto {
@@ -62,7 +102,6 @@ p {
     background-color: #E20000 !important;
     color: white;
     padding: 4px;
-    margin-left: 590px;
     border-radius: 20px;
 }
 
@@ -83,3 +122,20 @@ p {
     color: white;
 }
 
+.row {
+    display: flex;
+}
+
+.form-inline { 
+    padding-left: 580px;
+}
+
+.fuente:hover{
+    text-decoration: blue;
+    text-decoration: underline !important;
+}
+
+a {
+    color: red;
+    text-decoration:solid
+}
