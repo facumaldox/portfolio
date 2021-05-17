@@ -168,8 +168,9 @@ footer .fa-github, .fa-linkedin-in{
 
 #proyectos footer .fa-github{
     color: red;
-    padding; left: 0px;
+    padding-left: 0px;
 }
+
 #proyectos footer .fa-linkedin-in{
     color: red;
 }
