@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,16 +24,16 @@
                 <div class="collapse navbar-collapse" id="navbarsExampleDefault">
                     <ul class="navbar-nav mr-auto text-center">
                         <li class="nav-item pr-5">
-                            <a class="nav-link  " href="index.html">Inicio</a>
+                            <a class="nav-link  " href="index.php">Inicio</a>
                         </li>
                         <li class="nav-item pr-5">
-                            <a class="nav-link " href="sobre-mi.html">Sobre mí</a>
+                            <a class="nav-link " href="sobre-mi.php">Sobre mí</a>
                         </li>
                         <li class="nav-item pr-5">
-                            <a class="nav-link active" href="proyectos.html">Proyectos</a>
+                            <a class="nav-link active" href="proyectos.php">Proyectos</a>
                         </li>
                         <li class="nav-item pr-5">
-                            <a class="nav-link " href="contacto.html">Contacto</a>
+                            <a class="nav-link " href="contacto.php">Contacto</a>
                         </li>
                     </ul>
                     <div class="form-inline my-2 my-lg-0">
@@ -138,17 +137,15 @@
                     Sponsor <a href="https://depcsuite.com" target="_blank" title="DEPCSUITE">DePC Suite</a>
                 </div>
                 <div class="col-sm-3 col-12 text-sm-left text-center pb-sm-0 pb-3">
-                    <a href="mailto:info@depcsuite.com">info@nelsontarche.com.ar</a>
+                    <a href="mailto:fmaldonado.fem@gmail.com">fmaldonado.fem@gmail.com</a>
                 </div>
-                <div class="col-sm-3 col-12 text-right">
-                    <a href="https://api.whatsapp.com/send?phone=541139359908" title="Whatsapp"><i
-                            class="fab fa-whatsapp"></i></a>
-                </div>
-
             </div>
         </div>
     </footer>
-
+    <div class="whatsapp">
+        <a href="https://api.whatsapp.com/send?phone=1139359908" title="Whatsapp"><i class="fab fa-whatsapp"></i></a>
+    </div>
+    <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
