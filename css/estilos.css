@@ -8,6 +8,27 @@ h1 {
     color: #E20000;
 }
 
+#index{
+    background-image: url(../Imagenes/fondo-contacto.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#index .div-cohete{
+    height: 410px;
+}#index .cohete{
+    height: 400px;
+}
+#index .cohete:hover{
+    height: 410px;
+}
+#index .input-home p{
+    color:white;
+    font-size: 17px;
+    border: 1px solid white;
+    border-radius: 50px;
+    font-weight: 600;
+}
 
 
 nav .nav-link {
@@ -38,6 +59,11 @@ p {
     color: #6a6a6a
 }
 
+#index{
+    background-image: url(../Imagenes/fondo-contacto.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
 
 #contacto {
     background-image: url(../Imagenes/fondo-contacto.png);
@@ -111,33 +137,19 @@ p {
     border-radius: 20px;
 }
 
-.col-sm-3 col-12 text-right{
-    background-color: #370a6d;
-    color: white;
-    width: 60px;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-    font-size: 32px;
-    height: 200px;
-    text-align: center;
-    padding: 100px 0 40px 0;
-    position: fixed;
-}
+
 
 .text-right {
     text-align: right!important;
 }
 
-.whatsapp a{
+.whatsapp1 a{
     color: white;
 }
 
 .row {
     display: flex;
 }
-
-
-
 
 .form-inline { 
     padding-left: 580px;
@@ -149,18 +161,8 @@ p {
 }
 
 a {
-    color:red;
+    color: red;
     text-decoration:solid
-}
-
-footer .fa-whatsapp {
-color: white;
-background-color: #370A6D;
-font-size: 30px;
-padding: 10px 19px;
-border-radius: 10px 10px 0 0;
-height: 103px;
-width: 65px;
 }
 
 footer .fa-github, .fa-linkedin-in{

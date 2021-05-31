@@ -137,13 +137,14 @@
                     Sponsor <a href="https://depcsuite.com" target="_blank" title="DEPCSUITE">DePC Suite</a>
                 </div>
                 <div class="col-sm-3 col-12 text-sm-left text-center pb-sm-0 pb-3">
-                    <a href="mailto:fmaldonado.fem@gmail.com">fmaldonado.fem@gmail.com</a>
+                    <a href="mailto:fmaldonado.fem@gmail.com" class="mail">fmaldonado.fem@gmail.com</a>
                 </div>
             </div>
         </div>
     </footer>
-    <div class="whatsapp">
-        <a href="https://api.whatsapp.com/send?phone=1139359908" title="Whatsapp"><i class="fab fa-whatsapp"></i></a>
+    <div class="whatsapp1" style=" background-color:#370a6d; color: white ; width: 60px; border-top-left-radius: 10px ;
+        border-top-right-radius: 10px ; font-size: 30px; text-align: center; padding: 8px 0 15px 0; right:80px; position: fixed; bottom: 0px;">
+        <a href="https://api.whatsapp.com/send?phone=1139359908" title="Whatsapp"><i class="fab fa-whatsapp" style="color: white;"></i></a>
     </div>
     <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>

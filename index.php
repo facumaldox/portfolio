@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/fontawesome-free-5.15.3-web/css/fontawesome.min.css">
     <link rel="stylesheet" href="css/fontawesome-free-5.15.3-web/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/estilos1.css">
     <title>Mi Portfolio</title>
 
 </head>
