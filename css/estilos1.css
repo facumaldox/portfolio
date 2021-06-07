@@ -248,12 +248,12 @@ a {
 
  .fa-github, .fa-linkedin-in {
     font-size: 30px;
-    color: white;
+    color: red;
 } 
 
-footer .mail, .sponsor {
+#contacto footer .mail, .sponsor {
     font-size: 15px;
-    color: white;
+    color: red; 
 }
 
 #proyectos footer .fa-github{

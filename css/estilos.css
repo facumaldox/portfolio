@@ -109,13 +109,14 @@ p {
     background: linear-gradient(90deg, rgba(163,0,0,1) 27%, rgba(242,12,12,1) 58%);
 }
 
-@media (max-width: 700px) {
+@media (min-width: 250px) {
     #contacto {
         background-image: url(../Imagenes/Artboard\ 1\ copia\ 3\ copy\ 9.png);
         background-size: 100%;
         background-repeat: no-repeat;
     }
 }
+
 
 .btne {
     background-color: white;
@@ -176,4 +177,9 @@ footer .fa-github, .fa-linkedin-in{
 
 #proyectos footer .fa-linkedin-in{
     color: red;
+}
+
+.circular--square{
+    border-radius: 75%;
+    padding-bottom: 20px;
 }

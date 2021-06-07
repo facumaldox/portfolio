@@ -1,3 +1,9 @@
+<?php 
+  $pg = "contacto";
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -15,36 +21,7 @@
 </head>
 
 <body id="contacto">
-    <header>
-        <div class="container">
-            <nav class="navbar navbar-expand-md px-0">
-                <button class="navbar-toggler mb-1" type="button" data-toggle="collapse"
-                    data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon mt-2"><i class="fas fa-bars"></i></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-                    <ul class="navbar-nav mr-auto text-center">
-                        <li class="nav-item pr-5">
-                            <a class="nav-link  " href="index.php">Inicio</a>
-                        </li>
-                        <li class="nav-item pr-5">
-                            <a class="nav-link " href="sobre-mi.php">Sobre mí</a>
-                        </li>
-                        <li class="nav-item pr-5">
-                            <a class="nav-link " href="proyectos.php">Proyectos</a>
-                        </li>
-                        <li class="nav-item pr-5">
-                            <a class="nav-link active" href="contacto.php">Contacto</a>
-                        </li>
-                    </ul>
-                    <div class="form-inline my-2 my-lg-0">
-                        <a href="" class="btn btn-rojo">Descargar mi CV <i class="fas fa-download"></i></a>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </header>
+    <?php include_once("header.php");?>
 
     <main class="container">
         <div class="row">
@@ -93,23 +70,7 @@
         </div>
     </div>
 
-    <footer>
-        <div class="container">
-            <div class="row mt-5">
-                <div class="col-sm-3 col-12 text-sm-left text-center pb-sm-0 pb-3">
-                    <a href="https://github.com" target="_blank" title="Github" style="color: white;"><i class="fab fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/nelson-daniel-tarche/" target="_blank" title="Linkedin"><i
-                            class="fab fa-linkedin-in" style="color: white;"></i></a>
-                </div>
-                <div class="col-sm-3 col-12 text-sm-left text-center pb-sm-0 pb-3">
-                    Sponsor <a href="https://depcsuite.com" target="_blank" title="DEPCSUITE" class="sponsor" style="color: white;">DePC Suite</a>
-                </div>
-                <div class="col-sm-3 col-12 text-sm-left text-center pb-sm-0 pb-3">
-                    <a href="mailto:fmaldonado.fem@gmail.com" style= "color: white;">fmaldonado.fem@gmail.com</a>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <?php include_once("footer.php"); ?>
     <div class="whatsapp1" style=" background-color:#370a6d; color: white ; width: 60px; border-top-left-radius: 10px ;
         border-top-right-radius: 10px ; font-size: 30px; text-align: center; padding: 8px 0 15px 0; right:80px; position: fixed; bottom: 0px;">
         <a href="https://api.whatsapp.com/send?phone=1139359908" title="Whatsapp"><i class="fab fa-whatsapp" style="color: white;"></i></a>
